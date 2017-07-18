@@ -1,0 +1,83 @@
+# batch26
+
+package array;
+
+public class arrayexample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		int a = Integer.parseInt(args[0]);
+//		int b = Integer.parseInt(args[1]);
+//		System.out.println(a + b);
+//		System.out.println(args[3]);
+//		System.out.println(args.length);
+		
+		int age = 3;
+//		int ages[] = {20,21,28,33};
+		String ages[] = {"10", "11", "12"};
+		
+		String name[] = {"ale", "alex", "alexa"};
+//		System.out.println(name[0]);
+//		System.out.println(name[1]);
+//		System.out.println(name[2]);
+//
+		String aleD[]= {"name is rupesh","age is 10"};
+		String alexD[] = {"name is raji","age is 11"};
+		String alexaD[]= {"alexa","12"};
+		
+		String personD[][] = {aleD,alexD,alexaD};
+//		System.out.println(personD[2][0]);
+//		System.out.println(personD.length);		
+//		for (int i =0; i < personD.length; i ++){
+//			System.out.println(personD[0][0] +"      "   +  personD[0][1]);
+//			System.out.println(personD[1][0] + "        "   +  personD[1][1]);
+//		}}}
+
+		for(int i = 0; i < personD.length; i++) {
+			for(int j=0 ; j < personD[i].length; j++) {
+				
+				System.out.print(personD[0][0] +"      "   + personD[0][1]);
+				System.out.println("           " + personD[1][0] + "        "   +  personD[1][1]);	
+
+			}
+		}}}
+
+			
+			
+//			
+//			for (int val1 : ages){
+//			System.out.println(val1);
+//			}}}}
+//		
+		
+	
+//		float bag1[] = new float[10];
+//		
+//		int bag[] = new int [10];
+//		bag[1] = age;
+//		bag[4] = 20;
+//		System.out.println(bag[1]);
+//		System.out.println(bag[4]);
+//		System.out.println(ages.length);
+////		
+//	  
+////		for (int i =0; i < ages.length; i ++){
+////			System.out.println(ages[0]);
+////			System.out.println(ages[1]);
+////			System.out.println(ages[2]);
+////			System.out.println(ages[3]);
+////			
+////			System.out.println( "-----------");
+////			for (int val : ages) {
+////				System.out.println(val);
+////				
+////			}
+////			
+//		}
+		
+			
+		
+		
+	
+
+
