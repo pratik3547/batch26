@@ -1,5 +1,3 @@
-# batch26
-
 package array;
 
 public class arrayexample {
@@ -28,16 +26,17 @@ public class arrayexample {
 		String personD[][] = {aleD,alexD,alexaD};
 //		System.out.println(personD[2][0]);
 //		System.out.println(personD.length);		
-//		for (int i =0; i < personD.length; i ++){
+//		for (int i =0; i < 1; i ++){
 //			System.out.println(personD[0][0] +"      "   +  personD[0][1]);
 //			System.out.println(personD[1][0] + "        "   +  personD[1][1]);
-//		}}}
+//		}}} 
 
-		for(int i = 0; i < personD.length; i++) {
-			for(int j=0 ; j < personD[i].length; j++) {
+		for(int i = 0; i < 1; i++) {
+			for(int j=0 ; j < 1 ; j++) {
+				
 				
 				System.out.print(personD[0][0] +"      "   + personD[0][1]);
-				System.out.println("           " + personD[1][0] + "        "   +  personD[1][1]);	
+				System.out.println("\n" + personD[1][0] + "        "   +  personD[1][1]);	
 
 			}
 		}}}
