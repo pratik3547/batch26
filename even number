@@ -1,0 +1,14 @@
+# batch26
+
+
+		   int limit = 100;
+           
+           System.out.println("EVEN NUMBER = " + limit);
+          
+           for(int i=0; i <= limit; i++){
+                  
+                   if( i % 2 == 0){
+                           System.out.print(i + " ");
+                           
+                   }}
+	
