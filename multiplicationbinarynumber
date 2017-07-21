@@ -1,0 +1,17 @@
+# batch26
+
+public class SecondProgram {
+	
+ 	public static void main(String[] args){
+ 		 		
+ 		String input0 = "1010";
+ 		String input1 = "1011";
+ 		int value = Integer.parseInt(input0, 2); 		
+ 		int value1 = Integer.parseInt(input1,2); 		
+ 		int multiply = (value * value1);
+ 		 
+ 		
+ 		System.out.println(multiply);
+ 		 
+ 	}
+	}
